@@ -1,0 +1,58 @@
+post http://localhost:9090/register HTTP/1.1
+content-Type: application/json
+
+{
+    "username": "rahul1",
+    "password":"a",
+    "email""rahul@gmail.com",
+    "name": " Rahul"
+}
+
+post http://localhost:9090/register HTTP/1.1
+content-Type: application/json
+
+{
+    "email":
+    "password": "a
+    
+    
+}
+
+GET http://localhost:9090/get_user_ans_profile
+content-Type: application/json
+
+{
+
+  "token": "1b389be710b8637e72fbf246f558799bf2853808314a76b2f350a6eea615681b",
+   
+}
+
+POST http://localhost:9090/update_profile_data
+
+{
+ "token": "1b389be710b8637e72fbf246f558799bf2853808314a76b2f350a6eea615681b",
+ "bio"
+ }
+
+ POST http://localhost:9090/update_profile_data
+
+{
+ "token": "1b389be710b8637e72fbf246f558799bf2853808314a76b2f350a6eea615681b",
+ "bio"
+ "currentpost": "CTO",
+  "years": "2+"
+ },
+
+ "education": [
+   {
+      "school": "IIIT",
+       "degree": "B.Tech",
+       "fieldofStudy": "2015-2019"
+   }
+ ]
+
+ ###
+
+ GET http://localhost:9090/user/get_all_users
+
+
